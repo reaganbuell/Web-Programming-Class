@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="hwk4b.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Spectral+SC" rel="stylesheet">
+        <title>Campus Feedback Survey</title>
+    </head>
+    <body>
+        <form>
+            <input type="submit" formaction="../index.html" value="Back to Index" class="button" id="return"/>
+        </form>
+        <br>
+        <br>
+        <br>
+        <h1>Campus Feedback Survey</h1>
+        <form method = "post" action="http://www.cknuckles.com/cgi/echo.cgi">
+                <p>
+                    <b> Name:</b>
+                    <label>
+                        <input name = "name" type = "text"  class="textbox" />
+                    </label>
+                </p>
+                <p>
+                    <b>Address:</b>
+                    <label>
+                        <input name = "address" type = "text" class="textbox" />
+                    </label>
+                </p>
+                <p>
+                    <b>E-mail:</b>
+                    <label>
+                        <input name = "email" type = "text"  class="textbox" />
+                    </label>
+                </p>
+                <p>
+                <b>What did you like most about campus?</b>
+                    <label>Students:
+                        <input name = "attraction" type = "checkbox" value = "Students" />
+                    </label>
+                    <label>Location:
+                        <input name = "attraction" type = "checkbox" value = "Location" />
+                    </label>
+                    <label>Campus:
+                        <input name = "attraction" type = "checkbox" value = "Campus" />
+                    </label>
+                    <label>Courses Offered:
+                         <input name = "attraction" type = "checkbox" value = "Courses" />
+                    </label>
+                    <label>Dorm Rooms:
+                        <input name = "attraction" type = "checkbox" value = "Dorm" />
+                    </label>
+                    <label>Sports:
+                        <input name = "attraction" type = "checkbox" value = "Sports" />
+                    </label>
+            </p>
+            <p>
+                <b>How did you become interested in the university?</b>
+                <label> Family
+                    <input name = "connection" type = "radio" value = "family" />
+                </label>
+                <label> Friends
+                    <input name = "connection" type = "radio" value = "friends" />
+                </label>
+                <label> Television
+                    <input name = "connection" type = "radio" value = "television" />
+                </label>
+                <label> Internet
+                    <input name = "connection" type = "radio" value = "internet" />
+                </label>
+                <label> Other
+                    <input name = "connection" type = "radio" value = "other" />
+                </label>
+            </p>
+            <p>
+                <b>Which department did you visit?</b>
+                <label>
+                    <select name = "rating">
+                        <option selected = "selected"> N/A </option>
+                        <option> Engineering</option>
+                        <option> Business </option>
+                        <option> Liberal Arts </option>
+                        <option> Communications </option>
+                        <option> Natural Sciences </option>
+                    </select>
+                </label>
+                <label>
+                    <select name = "rating">
+                        <option selected = "selected"> N/A </option>
+                        <option> Engineering</option>
+                        <option> Business </option>
+                        <option> Liberal Arts </option>
+                        <option> Communications </option>
+                        <option> Natural Sciences </option>
+                    </select>
+                </label>
+                <label>
+                    <select name = "rating">
+                        <option selected = "selected"> N/A </option>
+                        <option> Engineering</option>
+                        <option> Business </option>
+                        <option> Liberal Arts </option>
+                        <option> Communications </option>
+                        <option> Natural Sciences </option>
+                    </select>
+                </label>
+                <label>
+                    <select name = "rating">
+                        <option selected = "selected"> N/A </option>
+                        <option> Engineering</option>
+                        <option> Business </option>
+                        <option> Liberal Arts </option>
+                        <option> Communications </option>
+                        <option> Natural Sciences </option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <b>Comments:</b>
+                <label> 
+                    <textarea name = "comments" rows = "4" cols = "48">
+                    </textarea>
+                </label>
+            </p>
+            <p>
+                <b>Submit your response:</b>
+                <input type = "submit" value = "Enter" class="button"/>
+                <input type = "reset" value = "Clear" class="button"/>
+            </p>
+        </form>
+    </body>
+</html>

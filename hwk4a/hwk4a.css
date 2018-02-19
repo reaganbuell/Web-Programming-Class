@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-size: large;
+}
+
+#return {
+    float: left;
+}
+
+h1, h3 {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+img {
+    border: 1px solid black;
+}
+
+ .button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: orange;
+}
