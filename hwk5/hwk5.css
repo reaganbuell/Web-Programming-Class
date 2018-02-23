@@ -1,0 +1,106 @@
+html {
+  margin: 2px;
+  padding: 2px;
+}
+
+body {
+  margin: 2px;
+  padding: 2px;
+  color: #5d665b;
+  background-color: #e8eae8;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+  line-height: 200%;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  margin: 2px;
+  max-height: 60px;
+  min-width: 700px;
+  max-width: 720px;
+  border-bottom: 1px double;
+  vertical-align: middle;
+}
+
+input[type=submit] {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+}
+
+h1 {
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+  vertical-align: middle;
+  color: #7d775c;
+}
+
+.navCol {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  width: 150px;
+  min-height: 300px;
+  max-height: 400px;
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  
+}
+
+.adCol {
+  position: absolute;
+  top: 60px;
+  left: 540px;
+  width: 150px;
+  min-height: 300px;
+  max-height: 400px;
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+
+.headlines {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 300px;
+  max-height: 650px;
+  min-height: 600px;
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+
+}
+
+.footer {
+  position: absolute;
+  top: 750px;
+  clear: both;
+  min-width: 700px;
+  max-width: 720px;
+  margin: 2px;
+  padding: 2px;
+  border-top: 1px double;
+  border-bottom: 1px solid;
+}

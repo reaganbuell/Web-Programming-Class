@@ -7,14 +7,6 @@ body {
     float: left;
 }
 
-h1, h3 {
-    font-family: 'Gentium Book Basic', serif;
-}
-
-p {
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
 img {
     border: 1px solid black;
 }
