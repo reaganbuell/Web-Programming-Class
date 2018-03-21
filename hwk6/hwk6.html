@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mortgage Calculator</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Saira+Condensed" rel="stylesheet">
+        <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./hwk6.css" media = "all" />
+        <script type="text/javascript" src="./hwk6.js"></script>
+    </head>
+    <body>
+        <form>
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button" id="return"/>
+        </form>
+        <br/>
+        <br/>
+        <h1>Mortgage Calculator</h1>
+        <form name="mortgagecalc" id="calc">
+            <table>
+                <tr>
+                    <td>Principal:</td>
+                    <td>
+                        <input name = "principal" type = "text"  class="textbox" size="35" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Annual Percentage Interest Rate(%):</td>
+                    <td>
+                        <input name = "apr" type = "text"  class="textbox" size="35" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Loan Term in Months:</td>
+                    <td>
+                        <input name = "term" type = "text"  class="textbox" size="35" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Submit your response:</td>
+                    <td>
+                        <input type = "button" value = "Calculate" class="button" onclick="calculate();"/>
+                        <input type = "reset" value = "Clear" class="button"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Monthly Payments:</td>
+                    <td><input readonly name = "pmt" type = "text"  class="textbox" size="35" value="$0.00" /></td>
+
+                </tr>
+                <tr>
+                    <td>Sum of all Payments:</td>
+                    <td><input readonly name = "sum" type = "text"  class="textbox" size="35" value="$0.00" /></td>
+                </tr>
+                <tr>
+                    <td>Total Interest Paid:</td>
+                    <td><input readonly name = "ttl" type = "text"  class="textbox" size="35" value="$0.00" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    max-width: 720px;
+    margin: auto;
+}
+
+#return{
+    float: left;
+}
+
+h1{
+    max-width: 720px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 48px;
+}
+
+form{
+    text-align: center;
+}
+
+img{
+    max-width: 720px;
+    min-width: 720px;
+    border: 1px black solid;
+}
+
+input[type=submit], input[type=button]{
+    width: 170px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+   background-color: gray;
+}

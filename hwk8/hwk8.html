@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Random Image</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./hwk8.css" media = "all" />
+        <link href="https://fonts.googleapis.com/css?family=Mina|Montserrat" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button" id="return"/>
+        </form>
+        <h1>Galaxies</h1>
+        <div class='float'>
+            <script>
+                // Possible Images
+                var images = [ "./InteractingGalaxies.jpg", "./GalaxyCluster.jpg", "./M51.jpg", "./M104.jpg", "./NGC1300.jpg", "./NGC6217.jpg"];
+                var caption = ["InteractingGalaxies", "GalaxyCluster", "M51", "M104", "NGC1300", "NGC6217"];
+                // Display a randomly chosen image
+                var randomNum = Math.floor(Math.random() * images.length);
+                document.writeln("<img src="+images[randomNum]+" alt="+caption[randomNum]+" width='640' height='480'><br>"+caption[randomNum]);
+            </script>
+        </div>
+    </body>
+</html>

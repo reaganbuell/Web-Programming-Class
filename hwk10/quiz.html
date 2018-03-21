@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Astronomy Quiz</title>
+        <meta charset="utf-8">
+        <script type ="text/javascript" src = "./quiz.js"></script>
+        <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./quiz.css" media = "all" />
+    </head>
+    <body>
+        <form id="return">
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button"/>
+        </form>
+        <br/>
+        <br/>
+        <center><h1> Astronomy Quiz </h1></center>
+        <form name="quiz">
+            <hr/><h3> True / False </h3><hr/>
+            <b>1)</b> According to Kepler the orbit of the earth is a circle with
+            the sun at the center. <br>
+            <input name = "q1" type = "radio" value = "true" />
+            a) True 
+            <input name = "q1" type = "radio" value = "false" />
+            b) False <br><br>
+
+            <b>2)</b> Ancient astronomers did consider the heliocentric model of
+            the solar system but rejected it because they could not detect parallax. <br>
+            <input name = "q2" type = "radio" value = "true" />
+            a) True
+            <input name = "q2" type = "radio" value = "false" />
+            b) False <br><hr/>
+
+            <h3> Multiple Choice </h3><hr/>
+            <b>3)</b> The total amount of energy that a star emits is directly related
+            to its <br>
+            <input name = "q3" type = "checkbox" class="q3" value = "a" />
+            a) surface gravity and magnetic field <br>
+            <input name = "q3" type = "checkbox" class="q3" value = "b" />
+            b) radius and temperature <br>
+            <input name = "q3" type = "checkbox" class="q3" value = "c" />
+            c) pressure and volume <br>
+            <input name = "q3" type = "checkbox" class="q3" value = "d" />
+            d) location and velocity <br> <br>
+
+            <b>4)</b> Stars that live the longest have <br>
+            <input name = "q4" type = "checkbox" class="q4" value = "a" />
+            a) high mass <br>
+            <input name = "q4" type = "checkbox" class="q4" value = "b" />
+            b) high temperature <br>
+            <input name = "q4" type = "checkbox" class="q4" value = "c" />
+            c) lots of hydrogen <br>
+            <input name = "q4" type = "checkbox" class="q4" value = "d" />
+            d) small mass <br> <hr/>
+
+            <h3> Fill in the Blank </h3><hr/>
+            <b>5)</b> A collection of a hundred billion stars, gas, and dust is
+            called a <input name = "q5" type = "text" />. <br><br>
+
+            <b>6)</b> The inverse of the Hubble's constant is a measure of the <input name = "q6" type = "text" /> of the universe. <br><br><hr/>
+            <input type="button" value="Grade" class="button" id="grade" onclick="grade();"/>
+            <input type="reset" value="Clear" class="button" id="clear"/>
+        </form>
+    </body>
+</html>

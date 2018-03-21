@@ -1,0 +1,52 @@
+body{
+    max-width: 670px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Mina', sans-serif;
+    font-size: 48px;
+}
+
+.float{
+    width: 645px;
+    float: right;
+    margin: 0 0 10px 10px;
+    background-color: indianred;
+    padding: 10px;
+    border-top: 1px solid #999;
+    border-right: 2px solid #555;
+    border-bottom: 2px solid #555;
+    border-left: 1px solid #999;
+    text-align: center;
+}
+
+div.float img{
+    border-top: 2px solid #555;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 2px solid #555;
+}
+
+input[type=submit]{
+    width: 170px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: gray;
+}

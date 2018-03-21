@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Slide Show</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./travel_show.css" media = "all" />
+        <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button" id="return"/>
+        </form>
+        <br/>
+        <br/>
+        <h1><u>Travel Show</u></h1>
+        <script>
+            // Images for Slide Show
+            var images = [ "./agra_fort.jpg", "./ajanta_ellora.jpeg", "./akshardham_temple.jpg", "./char_minar.jpg", "./hawa_mahal.jpeg", "./mumbai.jpeg", "./mysore_palace.jpeg", "./sun_temple.jpg", "./taj_mahal.jpeg", "./victoria_memorial.jpg"];
+            var timer = setInterval(function(){ slide() }, 3000);
+            var index = 1;
+
+            function slide() {
+                document.getElementById("pic").setAttribute("src",images[index]);
+                index++;
+                if(index>=images.length) {
+                    index=0;
+                }
+            }
+            function start() {
+                timer = setInterval("slide()", 3000);
+            }
+            function stop() {
+                clearInterval(timer);
+            }
+        </script>
+        <img id="pic" src="./agra_fort.jpg" alt="Pictures of India" />
+        <form>
+            <input type="button" value="Start" class="button" onclick="start();"/>
+            <input type="button" value="Stop" class="button" onclick="stop();"/>
+        </form>
+    </body>
+</html>

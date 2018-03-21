@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Form Validation </title>
+        <script type ="text/javascript" src = "./validate.js"></script>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./hwk7.css" media = "all" />
+    </head>
+    <body>
+        <form>
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button" id="return"/>
+        </form>
+        <form name="textForm" id = "textForm">
+            <h2>Register:</h2>
+            <table border = "0">
+                <tr>
+                    <td> Name: </td>
+                    <td> <input type = "text" name = "userName" /></td>
+                </tr>
+                <tr>
+                    <td> Password: </td>
+                    <td> <input type = "password" name = "password" /></td>
+                </tr>
+                <tr>
+                    <td> Repeat Password: </td>
+                    <td> <input type = "password" name = "repeatPassword" /></td>
+                </tr>
+                <tr>
+                    <td> <input type = "button" value = "Enter" onclick="validate();" /></td>
+                    <td> <input type = "reset" value = "Clear" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
