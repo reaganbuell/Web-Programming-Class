@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title> Jigsaw Puzzle </title>
+        <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./jigsaw.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <script type = "text/javascript" src = "./jigsaw.js"></script>
+    </head>
+
+    <body style = "font-size: 20;">
+        <form id="return">
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button"/>
+        </form>
+        <br>
+        <br>
+        <br>
+        <h1>Jigsaw Puzzle</h1>
+        <img src="./puzzleback.gif" alt="Puzzle Background" id="pback">
+            
+        <input type="button" value="Done!" class="button" id="done">
+        <div class="pics">
+            <script type="text/javascript">randomSet();</script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    max-width: 720px;
+    margin: auto;
+}
+
+p{
+  text-align: center;
+  font-size: 24px;
+  max-width: inherit;
+  margin: auto;
+}
+
+#return{
+    float: left;
+}
+
+h1{
+    max-width: 720px;
+    text-align: center;
+    font-size: 48px;
+}
+
+h3{
+    max-width: 720px;
+    text-align: center;
+}
+
+table{
+    max-width: 720px;
+    text-align: center;
+    margin: auto;
+}
+
+#grade{
+    float:left;
+    margin-left: 180px;
+}
+
+#clear{
+    float: right;
+    margin-right: 180px;
+}
+
+input[type=submit], input[type=button], input[type=reset]{
+    width: 170px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover {
+   background-color: gray;
+}

@@ -1,0 +1,94 @@
+body{
+    max-width: 720px;
+    margin: auto;
+}
+
+#return{
+    float: left;
+}
+
+#done{
+    margin-left: 265px;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 48px;
+}
+
+#pback{
+    margin-left: 150px;
+}
+
+.pics{
+    margin-left: 40px;
+}
+
+#pic1 {
+    
+}
+
+#pic2 {
+    
+}
+
+#pic3 {
+    
+}
+
+#pic4 {
+    
+}
+
+#pic5 {
+    
+}
+
+#pic6 {
+    
+}
+
+#pic7 {
+    
+}
+
+#pic8 {
+    
+}
+
+#pic9 {
+    
+}
+
+#pic10 {
+    
+}
+
+#pic11 {
+    
+}
+
+#pic12 {
+    
+}
+
+input[type=submit], input[type=button], input[type=reset]{
+    width: 170px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=button]:hover, input[type=reset]:hover {
+   background-color: gray;
+}

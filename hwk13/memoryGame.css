@@ -1,0 +1,61 @@
+body{
+    max-width: 960px;
+    margin: auto;
+    font-family: 'Slabo 27px', serif;
+}
+
+input[type=submit]{
+    float: left;
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    padding 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Chicle', cursive;
+}
+
+table{
+    border: 3px solid black;
+    margin: auto;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+}
+
+input[type=button]{
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+#restart{
+    cursor: pointer;
+    width:100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 430px;
+    margin-right: 430px;
+    border-radius: 10px;
+    border: none;
+}

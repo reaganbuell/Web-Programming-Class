@@ -1,0 +1,32 @@
+body{
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+#return{
+    float: left;
+}
+
+input[type=submit], input[type=reset]{
+    width: 145px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    padding 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+   background-color: gray;
+}
